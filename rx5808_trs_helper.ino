@@ -1,7 +1,9 @@
 // this code makes Arduino built-in led blinking fast when it detects strong vtx signal near the rx5808 receiver
-
+// 
+// you can use serial monitor at 9600 baud as well to read the rssi changes
+// 
 // vtx transmitter should be tuned to 5885MHz (E5 channel) +/- 5Mhz (5880MHz - R7 is also working)
-
+//
 // if you want to use another channel - you can tune the receiver accordingly to this table: 
 //  https://oscarliang.com/ctt/uploads/2016/02/vtx-frequency-5-band-40-channel-boscam-fatshark-raceband-abef.png
 
@@ -32,8 +34,8 @@ if no please keep fingers away from A0 pin during measurements
 int rssi_readout;
 
 void setup() {
-  // put your setup code here, to run once:
-
+ 
+Serial.begin(9600);
 pinMode(RSSIpin, INPUT);
 pinMode(CH1, OUTPUT);
 pinMode(CH2, OUTPUT);
@@ -56,4 +58,8 @@ delay(300);
 }
 else digitalWrite(ledPin, LOW);
 
+Serial.print("RSSI: ");
+Serial.println(rssi_readout);
+delay(100);
+ 
 }
