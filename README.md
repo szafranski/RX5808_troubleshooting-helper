@@ -21,6 +21,6 @@ RX5808   Arduino<br>
   GND  --    GND<br>
    5V  --    5V<br>
 
-you can additionally place 10-100Ohm resistor between A0 and ground to prevent false radings. if no please keep fingers away from A0 pin during measurements
+you can additionally place 10-100kOhm resistor between A0 and ground to prevent false radings. if no please keep fingers away from A0 pin during measurements
 
 */
