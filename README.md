@@ -12,9 +12,9 @@ simple arduino code for troubleshooting the RX5808
 
  
 connect the RX5808 to the Arduino:
-
-RX5808   Arduino
-  CH1      11
+<br>
+RX5808   Arduino<br>
+  CH1      11<br>
   CH2      10
   CH3      13
   RSSI     A0
