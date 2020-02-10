@@ -1,15 +1,15 @@
 # RX5808_troubleshooting-helper
 simple arduino code for troubleshooting the RX5808 
 
-// this code makes Arduino built-in led blinking fast when it detects strong vtx signal near the rx5808 receiver
-// 
-// you can use serial monitor at 9600 baud as well to read the rssi changes
-// 
-// vtx transmitter should be tuned to 5885MHz (E5 channel) +/- 5Mhz (5880MHz - R7 is also working)
-//
-// if you want to use another channel - you can tune the receiver accordingly to this table: 
-//  https://oscarliang.com/ctt/uploads/2016/02/vtx-frequency-5-band-40-channel-boscam-fatshark-raceband-abef.png
-
+// this code makes Arduino built-in led blinking fast when it detects strong vtx signal near the rx5808 receiver<br>
+// <br>
+// you can use serial monitor at 9600 baud as well to read the rssi changes<br>
+// <br>
+// vtx transmitter should be tuned to 5885MHz (E5 channel) +/- 5Mhz (5880MHz - R7 is also working)<br>
+//<br>
+// if you want to use another channel - you can tune the receiver accordingly to this table: <br>
+//  https://oscarliang.com/ctt/uploads/2016/02/vtx-frequency-5-band-40-channel-boscam-fatshark-raceband-abef.png<br>
+<br>
 /*
 
  
