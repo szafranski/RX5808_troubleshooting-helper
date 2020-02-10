@@ -18,7 +18,8 @@ RX5808   Arduino
   GND      GND
    5V      5V
 
-
+you can additionally place 10-100kHz resistor between A0 and ground to prevent false radings. 
+if no please keep fingers away from A0 pin during measurements
 
 */
 
