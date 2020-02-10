@@ -14,12 +14,12 @@ simple arduino code for troubleshooting the RX5808
 connect the RX5808 to the Arduino:
 <br>
 RX5808   Arduino<br>
-  CH1      11<br>
-  CH2      10<br>
-  CH3      13<br>
-  RSSI     A0<br>
-  GND      GND<br>
-   5V      5V<br>
+  CH1  --    11<br>
+  CH2  --    10<br>
+  CH3  --    13<br>
+  RSSI --   A0<br>
+  GND  --    GND<br>
+   5V  --    5V<br>
 
 
 
