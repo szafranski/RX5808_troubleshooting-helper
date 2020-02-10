@@ -1,4 +1,4 @@
-# RX5808 - troubleshooting-helper
+# RX5808_troubleshooting-helper
 simple arduino code for troubleshooting the RX5808 
 
 // this code makes Arduino built-in led blinking fast when it detects strong vtx signal near the rx5808 receiver
