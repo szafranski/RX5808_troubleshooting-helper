@@ -15,11 +15,11 @@ connect the RX5808 to the Arduino:
 <br>
 RX5808   Arduino<br>
   CH1      11<br>
-  CH2      10
-  CH3      13
-  RSSI     A0
-  GND      GND
-   5V      5V
+  CH2      10<br>
+  CH3      13<br>
+  RSSI     A0<br>
+  GND      GND<br>
+   5V      5V<br>
 
 
 
